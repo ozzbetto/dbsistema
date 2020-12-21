@@ -56,6 +56,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
                 g.fillRect(0,0,getWidth(),getHeight());
             }
         };
+        jLabel2 = new javax.swing.JLabel();
         menuBar = new javax.swing.JMenuBar();
         mnuAlmacen = new javax.swing.JMenu();
         jMenuItem1 = new javax.swing.JMenuItem();
@@ -76,6 +77,10 @@ public class FrmPrincipal extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Sistema de Compras y Ventas");
+
+        jLabel2.setText("Desarrollado por Francisco Rodriguez");
+        escritorio.add(jLabel2);
+        jLabel2.setBounds(530, 500, 280, 14);
 
         mnuAlmacen.setIcon(new javax.swing.ImageIcon(getClass().getResource("/presentacion/images/almacen.png"))); // NOI18N
         mnuAlmacen.setText("Almacén");
@@ -217,6 +222,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JDesktopPane escritorio;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JMenuItem jMenuItem1;
     private javax.swing.JMenuItem jMenuItem10;
     private javax.swing.JMenuItem jMenuItem2;
