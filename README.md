@@ -1,5 +1,7 @@
 ### Proyecto de Sistema de Ventas en JAVA
 
+# Proyecto de práctica de JAVA con Swing
+
 ## Herramientas utilizadas:
 
 * Netbeans 12
