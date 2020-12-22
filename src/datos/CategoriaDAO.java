@@ -156,7 +156,7 @@ public class CategoriaDAO implements CrudSimpleInterface<Categoria> {
             ps = CON.conectar().prepareStatement("SELECT nombre FROM categoria WHERE nombre = ?");
             ps.setString(1, texto);
             rs = ps.executeQuery();
-            rs.last();
+            rs.next();
             if (rs.getRow() > 0) {
                 resp = true;
             }
