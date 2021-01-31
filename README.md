@@ -1,6 +1,6 @@
 ### Proyecto de Sistema de Ventas en JAVA
 
-# Proyecto de práctica de JAVA con Swing
+# Proyecto de práctica de JAVA con Swing y MYSQL
 
 ## Herramientas utilizadas:
 
